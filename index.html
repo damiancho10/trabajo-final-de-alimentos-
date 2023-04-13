@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Small Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="https://www.elheraldo.co/sites/default/files/styles/widht_760/public/articulo/2020/04/17/unnamed.png?itok=ylVm1mPq   " />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="">COMIDA TIPICA COLOMBIANA  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <button class="btn btn-primary" onclick="TE()"> REFERENCIAS</button>
+                        <button class="btn btn-primary" onclick="comenta()"> CONTACTO</button>
+                        
+                    </ul>
+                    <script type="text/javascript">
+                        function TE(){
+                            Swal.fire({
+                            title: 'TE HA GUSTADO LA PAGINA?',
+                            showDenyButton: true,
+                            showCancelButton: true,
+                            confirmButtonText: 'Si',
+                            denyButtonText: `no`,
+                            }).then((result) => {
+                            /* Read more about isConfirmed, isDenied below */
+                            if (result.isConfirmed) {
+                                Swal.fire('Saved!', '', 'success')
+                            } else if (result.isDenied) {
+                                Swal.fire('Changes are not saved', '', 'info')
+                            }
+                            })
+                                                    }
+                         
+                        </script>
+                        <script type="text/javascript">
+                            function comenta(){
+                                            Swal.fire({
+                                    title: 'NUMERO DE CONTACTO',
+                                    text: ' +57 3002490677   ',
+                                    icon: ' ok',
+                                    confirmButtonText: 'Cool'
+                                    })
+                                    
+                                
+                               }
+                             
+                            </script>
+
+                        
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="bandeja-paisa-1616.gif" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">BANDEJA PAISA </h1>
+                    <p>Bandeja paisa es algo que he comido toda mi vida, y si tuviera que elegir mi última comida en esta tierra, éste es el plato que eligiría sin ninguna duda.
+
+                        Tradicionalmente la Bandeja Paisa incluye frijoles, arroz blanco, chicharrón,carne en polvo, chorizo, huevo frito, plátano maduro, aguacate y arepa, pero se puede sustituir la carne en polvo por carne de res o de cerdo a la parrilla. Normalmente suelo hacer los frijoles y la carne en polvo el día anterior para que la receta sea más fácil.</p>
+                        <button class="btn btn-primary" onclick="damian()"> RECETA</button>
+                   
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                <script type="text/javascript">
+                    function damian(){
+                        
+                        Swal.fire({
+                        title: 'RECETA BANDEJA PAISA',
+                        text: '1/2 cucharadas de aceite (21 g)   tomates maduros sin piel y finamente picados (240 g)  sobre de CALDO CON COSTILLA MAGGI® DESMENUZADO (9 g)  3 tazas de agua (750 ml) ff 1/4 libra de carne molida magra (125 g)  1/2 libra de arroz blanco cocinado (250 g)  1/4 de libra de tocino crocante cortado en 4 porciones (125 g) 4 chorizos tipo coctel previamente cocinados y dorados (120 g)  4 huevos fritos (200 g)  1 aguacate partido en 4 porciones 4 arepas pequeñas redondas (80 g) 4 tajadas de plátano maduro fritas (80 g)',
+                        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxWD1KRHQefMQqZtebOKhWjR9KgPg9zUAwzw&usqp=CAU',
+                        imageWidth: 400,
+                        imageHeight: 200,
+                        imageAlt: 'Custom image',
+                        })
+                          
+                    }
+                    </script>
+
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">TAMBIEN PODEMOS VER OTROS PLATOS TIPICOS DE COLOMBIA </div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">LECHONA </h2>
+                            <p class="card-text">la lechona. El municipio que se ha hecho famoso por la preparación de este plato es el Espinal, en el norte del departamento. En los buenos tiempos, este municipio era reconocido por su tradición arrocera y comercial de la bonanza, que era la flor insignia del municipio, sin embargo por razones que no nos atañen en este momento, el municipio se volcó en gran parte a la venta de este plato tan criollo.</p>
+                        </div>
+                        <button class="btn btn-primary" onclick="comida()"> RECETA</button>
+                        
+                    </div>
+                    <script type="text/javascript">
+                        function comida(){
+                                                        Swal.fire({
+                            title: 'LECHONA',
+                            text: ' 1/4 taza de manteca de cerdo  4 cebollas largas picadas 4 dientes de ajo, finamente picados  1 cucharadita de comino molido 1 cucharadita de sazón con azafrán o color  3/4 taza de arvejas amarillas o verdes 1 1/4 tazas de arroz cocido Sal y pimienta 2 libras de carne de cerdo, cortado en trozos pequeños',
+                            imageUrl: 'https://lechonaelgordo.com/wp-content/uploads/2021/08/DSC_00841-scaled.jpg',
+                            imageWidth: 400,
+                            imageHeight: 200,
+                            imageAlt: 'Custom image',
+                            })
+                             
+                
+                      }
+                
+                
+                         </script>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">SANCOCHO</h2>
+                            <p class="card-text">Según los historiadores no hay una sola versión de la llegada o creación de este plato. Algunas historias cuenta que llegó a las islas Canarias con las danzarinas sulamitas del Anda - Luz morisco, otros aseguran que llegó con los españoles y que le decían “Olla podrida” pues era una mezcla de muchos alimentos pero el olor no era atractivo. Mientras que algunos chefs dicen que el plato es de origen frances o que llegó a las costas americanas por barco..</p>
+                        </div>
+                        <button class="btn btn-primary" onclick="ingre()"> RECETA</button>
+                    </div>
+                    <script type="text/javascript">
+                        function ingre(){
+                            Swal.fire({
+                            title: 'SANCOCHO',
+                            text: '5 y 1/2 tazas de agua (1375 ml) 3 tallos de cebolla larga finamente picada incluyendo la parte verde (45 g)  1 libra de costilla de res magra (o falda, bola de res) cortada en 4 trozos (500 g) 2 sobres de CALDO CON COSTILLA MAGGI® DESMENUZADO (18 g)  1 rama de cilantro (10 g) 2 mazorcas tiernas pequeñas, partida cada una en 2 partes (300 g)  1 plátano verde pelado y cortado en 4 partes (230 g ½ libra de yuca pelada, lavada y partidas en 4 trozos (250 g)  1/2 libra de papa pastusa pelada, lavada y partida en 4 trozos (250 g) 1 cucharada de aceite (14 g)  2 tomates rojos sin piel y finamente picados (240 g) 1 cucharada de cilantro finamente picado (solo las hojas) (10 g)',
+                            imageUrl: 'https://images-gmi-pmc.edge-generalmills.com/a32379ab-65fb-4242-9e07-28fbb087524e.jpg',
+                            imageWidth: 400,
+                            imageHeight: 200,
+                            imageAlt: 'Custom image',
+                            })
+                             
+                
+                      }
+                
+                
+                         </script>
+
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">TAMALES </h2>
+                            <p class="card-text">El tamal (del náhuatl tamalli, que significa envuelto) es un nombre genérico dado a varios platos americanos de origen indígena preparado generalmente con masa de maíz cocida envuelta en hojas de la mazorca o de la misma planta de maíz, plátano, bijao, maguey, aguacate o incluso papel aluminio o plástico. Pueden llevar o no relleno, el cual puede contener carne, vegetales, chile, frutas, salsa, etc. Además pueden ser con sabor dulce o salado.</p>
+                        </div>
+                        <button class="btn btn-primary" onclick="tamales()"> RECETA</button>
+
+                        <script type="text/javascript">
+                            function tamales(){
+                                Swal.fire({
+                                title: 'TAMALES',
+                                text: '1 libra de maíz amarillo (500 g)  1 sobre de CALDO DE GALLINA MAGGI® DESMENUZADO (9 g) preparado en 8 tazas de agua caliente. 1 libra de arveja verde precocida (500 g)  2 cucharadas de aceite (28 g) 4 tomates pelados y finamente picados (492 g)  1 sobre de CALDO CON COSTILLA MAGGI® DESMENUZADO (9 g) 4 tallos de cebolla larga incluyendo la parte verde finamente picada 60 g) 1/2 taza de agua (250 ml)  2 cucharada de cilantro finamente picado (20 g) 2 libras de costilla de cerdo, cocinada cortada en 8 trozos (1000 g) 2 libras de carne de cerdo cortada en 8 trozos y previamente cocinada (1000 g  1 1/2 libras de papa pelada y cortada en rodajas (750 g)  2 zanahorias medianas peladas y cortadas en rodajas (140 g) 4 huevos cocinados duros (200 g)    ',
+                                imageUrl: 'https://cdn.aarp.net/content/dam/aarp/food/recipes/2017/12/1140-tamales-stack-food-gods-esp.jpg',
+                                imageWidth: 400,
+                                imageHeight: 200,
+                                imageAlt: 'Custom image',
+                                })
+                                 
+                    
+                          }
+                        </script>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">DAMIANCHO</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
